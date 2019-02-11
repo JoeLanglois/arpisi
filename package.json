@@ -14,15 +14,11 @@
             ],
             [
                 "@pika/plugin-build-web"
-            ],
-            [
-                "@pika/plugin-build-deno"
             ]
         ]
     },
     "dependencies": {},
     "devDependencies": {
-        "@pika/plugin-build-deno": "^0.3.4",
         "@pika/plugin-build-node": "^0.3.4",
         "@pika/plugin-build-web": "^0.3.4",
         "@pika/plugin-ts-standard-pkg": "^0.3.4",
