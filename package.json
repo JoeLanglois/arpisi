@@ -1,0 +1,32 @@
+{
+    "name": "arpisi",
+    "description": "RPC, but fun and effortless",
+    "version": "0.1.0",
+    "scripts": {},
+    "license": "MIT",
+    "@pika/pack": {
+        "pipeline": [
+            [
+                "@pika/plugin-ts-standard-pkg"
+            ],
+            [
+                "@pika/plugin-build-node"
+            ],
+            [
+                "@pika/plugin-build-web"
+            ],
+            [
+                "@pika/plugin-build-deno"
+            ]
+        ]
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@pika/plugin-build-deno": "^0.3.4",
+        "@pika/plugin-build-node": "^0.3.4",
+        "@pika/plugin-build-web": "^0.3.4",
+        "@pika/plugin-ts-standard-pkg": "^0.3.4",
+        "@pika/types": "^0.3.8",
+        "typescript": "^3.2.2"
+    }
+}
