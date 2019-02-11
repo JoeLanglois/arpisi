@@ -1,7 +1,7 @@
 {
     "name": "arpisi",
     "description": "RPC, but fun and effortless",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "scripts": {},
     "license": "MIT",
     "@pika/pack": {
